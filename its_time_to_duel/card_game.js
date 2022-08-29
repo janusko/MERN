@@ -19,9 +19,10 @@ class Unit extends Card {
             target.res -= this.power
         } else {
         throw new Error("Target must be a unit!");
-    }
+        }
         // reduce target's res by power
         // Unit to Unit
+    return target
     }
 }
 
@@ -60,6 +61,7 @@ class Effect extends Card {
         } else {
             throw new Error("Target must be a unit!");
         }
+    return target
     }
 }
 
