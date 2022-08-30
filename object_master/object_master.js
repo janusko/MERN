@@ -25,32 +25,32 @@ const pokémon = Object.freeze([
 ]);
 
 
-// const bListPkmn = pokémon.filter( p => p.name[0] === "B" );
-// console.log(bListPkmn);
+const bListPkmn = pokémon.filter( p => p.name[0] === "B" );
+console.log(bListPkmn);
 
-// const pkmnIds = pokémon.map( p => p.id );
-// console.log(pkmnIds);
+const pkmnIds = pokémon.map( p => p.id );
+console.log(pkmnIds);
 
-// const divisibleByThree = pokémon.filter( p => p.id % 3 == 0 );
-// console.log(divisibleByThree);
+const divisibleByThree = pokémon.filter( p => p.id % 3 == 0 );
+console.log(divisibleByThree);
 
-// const typeFire = pokémon.filter( p => p.types = 'fire');
-// console.log(typeFire);
+const typeFire = pokémon.filter( p => p.types = 'fire');
+console.log(typeFire);
 
-// const multipleTypes = pokémon.filter( p => p.types > p.types[0])
-// console.log(multipleTypes);
+const multipleTypes = pokémon.filter( p => p.types > p.types[0])
+console.log(multipleTypes);
 
-// const justNames = pokémon.map( p => p.name )
-// console.log(justNames)
+const justNames = pokémon.map( p => p.name )
+console.log(justNames)
 
-// const greaterThan99 = pokémon.filter( p => p.id > 99).map( p => p.name);
-// console.log(greaterThan99)
+const greaterThan99 = pokémon.filter( p => p.id > 99).map( p => p.name);
+console.log(greaterThan99)
 
-// const onlyPoison = pokémon.filter( p => p.types == 'poison').map( p => p.name);
-// console.log(onlyPoison);
+const onlyPoison = pokémon.filter( p => p.types == 'poison').map( p => p.name);
+console.log(onlyPoison);
 
-// const secondTypeFlying = pokémon.filter( p => p.types[1] == 'flying').map( p => p.types[0]);
-// console.log(secondTypeFlying)
+const secondTypeFlying = pokémon.filter( p => p.types[1] == 'flying').map( p => p.types[0]);
+console.log(secondTypeFlying)
 
 const count = pokémon.filter( p => p.types == 'normal')
-console.log(count)
+console.log(count.length)
